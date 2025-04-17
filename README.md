@@ -57,7 +57,7 @@ MVP en 3-6 meses.
 
 Expansión y mejora continua post-lanzamiento.
 
-6. Pasos Iniciales para el Desarrollo
+5. Pasos Iniciales para el Desarrollo
 
 Investigación y validación de mercado: Análisis de la demanda y características que los usuarios potenciales buscan en una plataforma de este tipo.
 
@@ -73,7 +73,7 @@ Pruebas y lanzamiento beta.
 
 Ajustes, marketing y escalabilidad del proyecto.
 
-7. Conclusión
+6. Conclusión
 Este proyecto busca revolucionar la forma en que las academias de Jiu-Jitsu en Latinoamérica gestionan sus operaciones y mejoran la experiencia de sus estudiantes. Con un enfoque en tecnología, automatización y conectividad, esta plataforma tendrá el potencial de convertirse en una solución clave para la comunidad de artes marciales en la región.
 
 
