@@ -1,16 +1,11 @@
-from pydantic import BaseModel, EmailStr
-from typing import Optional
+from pydantic import BaseModel
 
-class UsuarioBase(BaseModel):
+class Usuario(BaseModel):
     nombre: str
-    apellido: str
-    email: EmailStr
+    telefono: str
+    email: str
+    password: str
 
-class UsuarioCrear(UsuarioBase):
-    contraseña: str
+miguel = Usuario(nombre="Miguel", telefono="123456789", email="miguel@gmail.com", password="123Password")
 
-class UsuarioRespuesta(UsuarioBase):
-    id: int
-
-    class Config:
-        orm_mode = True
+clientes= [miguel]
