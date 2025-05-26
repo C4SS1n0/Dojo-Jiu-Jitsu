@@ -1,0 +1,25 @@
+.perfil-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .perfil-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #39322c;
+  }
+  
+  .perfil-section {
+    margin-bottom: 2rem;
+  }
+  
+  .perfil-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #925a29;
+  }
+  
