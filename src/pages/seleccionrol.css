@@ -1,0 +1,27 @@
+.seleccion-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .opciones {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .btn-rol {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #d69321;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-rol:hover {
+    background-color: #925a29;
+  }
+  
