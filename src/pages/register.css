@@ -1,0 +1,99 @@
+/* Contenedor general con layout dividido */
+.register-container-side {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #39322c;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* Formulario principal */
+.register-form {
+  background-color: #a6a28e;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+.register-form h2 {
+  margin-bottom: 1.5rem;
+  color: #39322c;
+  text-align: center;
+}
+
+/* Etiquetas */
+.register-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #39322c;
+}
+
+/* Inputs y select */
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.register-form input[type="file"] {
+  background-color: #f4f4f4;
+  padding: 0.6rem;
+}
+
+/* Botón de enviar */
+.register-form button {
+  width: 100%;
+  background-color: #d69321;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #925a29;
+}
+
+/* Input con error */
+.input-error {
+  border: 2px solid #c0392b;
+  background-color: #fceae9;
+}
+
+/* Texto de error */
+.error-text,
+.register-form .error {
+  color: #c0392b;
+  margin-top: -0.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+/* Enlace de login */
+.register-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.register-link a {
+  color: #925a29;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
