@@ -1,57 +1,83 @@
-Proyecto: Dojo de Jiu-Jitsu de Alcance Latinoamericano
+<p align="center">
+  <img width="18%" src="img/logo.png" alt="logo">
+</p>
 
-1. Introducción
-El presente documento describe la propuesta para el desarrollo de un software integral dirigido a dojos de Jiu-Jitsu en Latinoamérica. El objetivo principal es crear una plataforma que facilite la gestión de academias, la comunicación entre estudiantes y maestros, y la administración del entrenamiento y progreso de los alumnos. Se incluirán herramientas de traducción automática, facturación, seguimiento de cinturones y automatización de procesos clave en la operación de academias de artes marciales.
+<h1 align="center">
+  Dojo-Jiu-Jit-Zu
+</h1>
 
-2. Características Principales
+<p align="center">
+  Aplicación web para gestión de estudiantes y maestros en un dojo de Jiu-Jitsu.
+</p>
 
-Perfil público: Cada usuario tendrá un perfil donde se reflejará su progreso, logros y conexiones dentro de la comunidad. 
+<div align="center">
 
-Administración de estudiantes: Seguimiento de cinturones, entrenamientos y avance de los alumnos de manera automatizada.
+[![Versión](https://img.shields.io/badge/version-1.0.0-red)]()
+[![Licencia](https://img.shields.io/badge/license-UnAB-green)]()
+[![Stack](https://img.shields.io/badge/Stack-React%20%7C%20FastAPI%20%7C%20MongoDB-informational)]()
 
-Software integral para academias: Panel de control para maestros y administradores con herramientas de gestión de alumnos y academias.
+</div>
 
-Generación de informes: Reportes de progreso, rendimiento y administración financiera para academias y entrenadores.
+---
 
-3. Desarrollo y Tecnologías a Utilizar
+![Interface](img/baner.png)
 
-Backend: FastAPI (Python) 
+---
 
-Frontend: React. para una experiencia de usuario fluida. = Desarrollado por Ochoa Cassian
+## 📦 Tecnologías utilizadas
 
-Base de datos: SQLAlchemy para almacenamiento eficiente de datos.
+- **Frontend**: React + Vite  
+- **Backend**: FastAPI (Python)  
+- **Base de datos**: MongoDB  
+- **Encriptado de contraseña**: BCrypt 
 
-Infraestructura y hosting:
+---
 
-Servidor en la nube (AWS, Google Cloud o DigitalOcean)
+## 🚀 Instalación del proyecto
 
-Base de datos gestionada para mayor escalabilidad.
+### 1. Backend (FastAPI)
 
-Balanceo de carga y optimización de rendimiento.
+```bash
+cd backend
+python -m venv venv
 
-Tiempo estimado de desarrollo:
+# Activar entorno virtual:
+# En Linux/macOS:
+source venv/bin/activate
 
-MVP en 3-6 meses.
+# En Windows:
+.\venv\Scripts\activate
 
-Expansión y mejora continua post-lanzamiento.
+# Instalar dependencias
+pip install -r requirements.txt
 
-4. Pasos Iniciales para el Desarrollo
+# Ejecutar el servidor
+uvicorn main:app --reload
+```
 
-Investigación y validación de mercado: Análisis de la demanda y características que los usuarios potenciales buscan en una plataforma de este tipo.
+### 2. FrontEnd(React)
+```bash
+cd frontend
+npm install
+npm run dev
+```
+### 3. Base de datos(MongoDbCompass)
+```bash
+cd baseDeDatos
+mongod
+mongosh
+```
 
-Definición del MVP: Selección de las funcionalidades básicas para un producto mínimo viable.
+## Ejecución local
+### Una vez levantados los 3 servicios:
 
-Diseño y prototipado: Creación de maquetas y diseño UX/UI.
+- **API REST**: http://localhost:8000
+- **Swagger Docs**: http://localhost:8000/docs
+- **Frontend React**: http://localhost:5173
+- **MongoDb**: http://localhost:27017
 
-Desarrollo del backend y base de datos.
+# Capturas de registro
 
-Implementación del frontend y prueba de experiencia de usuario.
 
-Pruebas y lanzamiento beta.
-
-Ajustes, marketing y escalabilidad del proyecto.
-
-5. Conclusión
-Este proyecto busca revolucionar la forma en que las academias de Jiu-Jitsu en Latinoamérica gestionan sus operaciones y mejoran la experiencia de sus estudiantes. Con un enfoque en tecnología, automatización y conectividad, esta plataforma tendrá el potencial de convertirse en una solución clave para la comunidad de artes marciales en la región.
 
 
