@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Dojo-Jiu-Jit-Zu
+  Dojo JiuStates
 </h1>
 
 <p align="center">
