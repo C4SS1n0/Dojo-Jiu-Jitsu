@@ -1,0 +1,18 @@
+{
+    "proyecto":{
+        "nombre":"prueba",
+        "entornoVirtual" :"conda",
+        "versionPython": "3.8",
+        "librerias":[
+            {
+                "nombre:": "uvicorn",
+                "version": ""
+            },
+            {
+                "nombre:": "fastApi",
+                "version": ""
+            }
+        ]
+
+    }
+}
